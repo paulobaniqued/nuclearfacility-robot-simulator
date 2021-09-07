@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class exposedLow : MonoBehaviour
 {
+    
     private void OnTriggerEnter()
     {
-        Debug.Log("Radiation Detected: LOW");
+        //Debug.Log("Radiation Detected: LOW");
 
     }
 

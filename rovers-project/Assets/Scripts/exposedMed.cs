@@ -6,7 +6,7 @@ public class exposedMed : MonoBehaviour
 {
     private void OnTriggerEnter()
         {
-            Debug.Log("Radiation Detected: MEDIUM");
+            //Debug.Log("Radiation Detected: MEDIUM");
 
         }
 }

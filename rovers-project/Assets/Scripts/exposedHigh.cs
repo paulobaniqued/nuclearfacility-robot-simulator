@@ -6,7 +6,7 @@ public class exposedHigh : MonoBehaviour
 {
 private void OnTriggerEnter()
     {
-        Debug.Log("Radiation Detected: HIGH!");
+        //Debug.Log("Radiation Detected: HIGH!");
 
     }
 }
