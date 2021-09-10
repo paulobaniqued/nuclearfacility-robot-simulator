@@ -659,7 +659,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 176456005}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.06, y: 1.04, z: 29.01}
+  m_LocalPosition: {x: 13.47, y: 1.04, z: 26.83}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 1657804260}
@@ -3682,7 +3682,6 @@ GameObject:
   - component: {fileID: 784927897}
   - component: {fileID: 784927896}
   - component: {fileID: 784927895}
-  - component: {fileID: 784927898}
   m_Layer: 0
   m_Name: radiation-low
   m_TagString: Radiation
@@ -3764,18 +3763,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784927893}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &784927898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784927893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f6993edd00ad2443a2e2ce36bd1b593, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &790423666
 GameObject:
   m_ObjectHideFlags: 0
@@ -4605,6 +4592,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthbarSlider: {fileID: 729779536}
+  maximumHealth: 0
+  currentHealth: 0
 --- !u!1 &1075091023
 GameObject:
   m_ObjectHideFlags: 0
@@ -5022,7 +5011,6 @@ GameObject:
   - component: {fileID: 1206029569}
   - component: {fileID: 1206029568}
   - component: {fileID: 1206029567}
-  - component: {fileID: 1206029570}
   m_Layer: 0
   m_Name: radiation-med
   m_TagString: Radiation
@@ -5104,18 +5092,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206029565}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1206029570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206029565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d5630d76eb6c8a4d9c13b180b6b4614, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1209852641
 GameObject:
   m_ObjectHideFlags: 0
@@ -6647,7 +6623,6 @@ GameObject:
   - component: {fileID: 1500151419}
   - component: {fileID: 1500151418}
   - component: {fileID: 1500151417}
-  - component: {fileID: 1500151420}
   m_Layer: 0
   m_Name: radiation-med
   m_TagString: Radiation
@@ -6729,18 +6704,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500151415}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1500151420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1500151415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d5630d76eb6c8a4d9c13b180b6b4614, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1522700309
 GameObject:
   m_ObjectHideFlags: 0
@@ -6789,6 +6752,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthbarSlider: {fileID: 1414031490}
+  maximumHealth: 0
+  currentHealth: 0
 --- !u!136 &1522700312
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7320,7 +7285,6 @@ GameObject:
   - component: {fileID: 1618899955}
   - component: {fileID: 1618899954}
   - component: {fileID: 1618899953}
-  - component: {fileID: 1618899956}
   m_Layer: 0
   m_Name: radiation-high
   m_TagString: Radiation
@@ -7402,18 +7366,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618899951}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1618899956
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1618899951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d68ff14f5b793574588445f868c6142d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1629607438
 GameObject:
   m_ObjectHideFlags: 0
@@ -7525,7 +7477,6 @@ GameObject:
   - component: {fileID: 1657804263}
   - component: {fileID: 1657804262}
   - component: {fileID: 1657804261}
-  - component: {fileID: 1657804264}
   m_Layer: 0
   m_Name: radiation-low
   m_TagString: Radiation
@@ -7607,18 +7558,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657804259}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1657804264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1657804259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f6993edd00ad2443a2e2ce36bd1b593, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1672035318
 GameObject:
   m_ObjectHideFlags: 0
@@ -8871,7 +8810,6 @@ GameObject:
   - component: {fileID: 2096887962}
   - component: {fileID: 2096887961}
   - component: {fileID: 2096887960}
-  - component: {fileID: 2096887963}
   m_Layer: 0
   m_Name: radiation-high
   m_TagString: Radiation
@@ -8953,18 +8891,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096887958}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &2096887963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2096887958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d68ff14f5b793574588445f868c6142d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2130546368
 GameObject:
   m_ObjectHideFlags: 0
