@@ -33,7 +33,7 @@
     {
       "name": "/actions/default/in/Squeeze",
       "type": "vector1",
-      "requirement": "mandatory"
+      "requirement": "optional"
     },
     {
       "name": "/actions/default/in/HeadsetOnHead",
@@ -48,6 +48,11 @@
     {
       "name": "/actions/default/in/SnapTurnRight",
       "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/TouchpadPosition",
+      "type": "vector2",
+      "requirement": "mandatory"
     },
     {
       "name": "/actions/default/out/Haptic",
@@ -121,10 +126,6 @@
     {
       "controller_type": "vive_cosmos_controller",
       "binding_url": "bindings_vive_cosmos_controller.json"
-    },
-    {
-      "controller_type": "logitech_stylus",
-      "binding_url": "bindings_logitech_stylus.json"
     },
     {
       "controller_type": "vive_cosmos",
